@@ -18,6 +18,7 @@
 		E28EC72526F971BB00966435 /* SettingsDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72426F971BB00966435 /* SettingsDefaults.swift */; };
 		E28EC72726F9732F00966435 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72626F9732F00966435 /* SettingsManager.swift */; };
 		E28EC72926F975AB00966435 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72826F975AB00966435 /* RingView.swift */; };
+		E28EC72B26FAD82300966435 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28EC72A26FAD82300966435 /* GoogleService-Info.plist */; };
 		E298123526F562910034D57A /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298123426F562910034D57A /* DistanceManager.swift */; };
 		E298123726F575260034D57A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298123626F575260034D57A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		E28EC72426F971BB00966435 /* SettingsDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDefaults.swift; sourceTree = "<group>"; };
 		E28EC72626F9732F00966435 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		E28EC72826F975AB00966435 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		E28EC72A26FAD82300966435 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E298123426F562910034D57A /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
 		E298123626F575260034D57A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 				E26A0F9F26F42B81006A8234 /* Info.plist */,
 				E26A0F9C26F42B81006A8234 /* Preview Content */,
 				E28EC72226F95BF100966435 /* Polygon.swift */,
+				E28EC72A26FAD82300966435 /* GoogleService-Info.plist */,
 			);
 			path = RiderApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				E26A0F9E26F42B81006A8234 /* Preview Assets.xcassets in Resources */,
 				E26A0F9B26F42B81006A8234 /* Assets.xcassets in Resources */,
+				E28EC72B26FAD82300966435 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
