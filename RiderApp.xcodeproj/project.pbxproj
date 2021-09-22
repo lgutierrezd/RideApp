@@ -14,6 +14,12 @@
 		E26A0FA926F42B81006A8234 /* RiderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0FA826F42B81006A8234 /* RiderAppTests.swift */; };
 		E26A0FB426F42B81006A8234 /* RiderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0FB326F42B81006A8234 /* RiderAppUITests.swift */; };
 		E26A0FC226F4326C006A8234 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0FC126F4326C006A8234 /* MapView.swift */; };
+		E28EC72326F95BF100966435 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72226F95BF100966435 /* Polygon.swift */; };
+		E28EC72526F971BB00966435 /* SettingsDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72426F971BB00966435 /* SettingsDefaults.swift */; };
+		E28EC72726F9732F00966435 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72626F9732F00966435 /* SettingsManager.swift */; };
+		E28EC72926F975AB00966435 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EC72826F975AB00966435 /* RingView.swift */; };
+		E298123526F562910034D57A /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298123426F562910034D57A /* DistanceManager.swift */; };
+		E298123726F575260034D57A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298123626F575260034D57A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		E26A0FB326F42B81006A8234 /* RiderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderAppUITests.swift; sourceTree = "<group>"; };
 		E26A0FB526F42B81006A8234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26A0FC126F4326C006A8234 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E28EC72226F95BF100966435 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		E28EC72426F971BB00966435 /* SettingsDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDefaults.swift; sourceTree = "<group>"; };
+		E28EC72626F9732F00966435 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		E28EC72826F975AB00966435 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		E298123426F562910034D57A /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		E298123626F575260034D57A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,16 @@
 			children = (
 				E26A0F9626F42B80006A8234 /* RiderAppApp.swift */,
 				E26A0F9826F42B80006A8234 /* ContentView.swift */,
+				E298123626F575260034D57A /* SettingsView.swift */,
+				E28EC72426F971BB00966435 /* SettingsDefaults.swift */,
+				E28EC72626F9732F00966435 /* SettingsManager.swift */,
+				E26A0FC126F4326C006A8234 /* MapView.swift */,
+				E28EC72826F975AB00966435 /* RingView.swift */,
+				E298123426F562910034D57A /* DistanceManager.swift */,
 				E26A0F9A26F42B81006A8234 /* Assets.xcassets */,
 				E26A0F9F26F42B81006A8234 /* Info.plist */,
 				E26A0F9C26F42B81006A8234 /* Preview Content */,
-				E26A0FC126F4326C006A8234 /* MapView.swift */,
+				E28EC72226F95BF100966435 /* Polygon.swift */,
 			);
 			path = RiderApp;
 			sourceTree = "<group>";
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28EC72326F95BF100966435 /* Polygon.swift in Sources */,
+				E28EC72526F971BB00966435 /* SettingsDefaults.swift in Sources */,
+				E298123726F575260034D57A /* SettingsView.swift in Sources */,
+				E28EC72926F975AB00966435 /* RingView.swift in Sources */,
 				E26A0F9926F42B80006A8234 /* ContentView.swift in Sources */,
+				E28EC72726F9732F00966435 /* SettingsManager.swift in Sources */,
 				E26A0FC226F4326C006A8234 /* MapView.swift in Sources */,
+				E298123526F562910034D57A /* DistanceManager.swift in Sources */,
 				E26A0F9726F42B80006A8234 /* RiderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
