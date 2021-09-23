@@ -16,7 +16,9 @@ struct RiderAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel = AppViewModel()
+            LoginView()
+                .environmentObject(viewModel)
         }
     }
 }

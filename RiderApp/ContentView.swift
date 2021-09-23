@@ -17,6 +17,8 @@ struct ContentView: View {
     @ObservedObject var sm = SettingsManager()
     
     @State private var showSettings = false
+    
+    @EnvironmentObject var viewModel: AppViewModel
     var body: some View {
         VStack {
             ZStack {
@@ -61,6 +63,12 @@ struct ContentView: View {
                     Text("\(Int(dm.distance ?? 0)) km").font(.title).bold()
                 }
             }
+            Button(action: {
+                viewModel.signOut()
+            }, label: {
+                Text("Sign out")
+            })
+            .padding()
             HStack {
                 Spacer()
                 Button(action: {
